@@ -1,0 +1,29 @@
+.container{
+    /* background-color:royalblue ; */
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    border: 1px solid red; 
+  }
+  
+  .col-100{
+    width: 100%;
+  }
+.tela-toda{
+  height: 100vh;
+}
+
+
+
+  
+  @media (max-width: 800px) {
+    .container{
+       max-width: 90%;
+     }
+   }
+   
+   @media (max-width: 800px) {
+    .col-100{
+      max-width: 100%;
+     }
+   }

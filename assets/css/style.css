@@ -1,0 +1,8 @@
+@import url("./base/base.css");
+@import url("./home/hero.css");
+@import url("./base/header.css");
+
+body {
+    margin: 0;
+    background: #0E1013;
+  }

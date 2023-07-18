@@ -1,11 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Saira:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <title>Portfolio</title>
 </head>
+
 <body>
-    sdadsasaddasdas
+  <section class="container">
+    <header>
+
+      <nav>
+        <ul>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Linguagens</a></li>
+          <li><a href="">Projetos</a></li>
+        </ul>
+      </nav>
+    </header>
+  </section>
+
+
+  <section class="container">
+    <div class="caixa tela-toda">
+      <div class="titulo-caixa">
+
+        <h2>Hellow world! Eu sou</h2>
+
+        <h1>Vinicius Lucio </h1>
+
+        <h2><span>DESENVOLVEDOR FRON</span>T-END</h2>
+
+      </div>
+      <div class="botoes-caixa">
+        <a href="">Sobre</a>
+        <a href="">SOBRE</a>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="col-100">
+<div class="container">
+    <div class="caixa-sobre">
+      <div class="sobre-titulo">
+        Sobre
+      </div>
+      <div class="sobre-txt">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores facere inventore iste quaerat, libero
+        debitis, omnis necessitatibus distinctio, sequi fugiat voluptates ut hic quae delectus quisquam excepturi
+        laborum provident.
+      </div>
+      <div class="sobre-icons">
+
+
+      </div>
+
+    </div>
+  </div>
+  </section>
 </body>
+
 </html>
+
+<script>
+  function typeWriter(elemento) {
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+      setTimeout(() => elemento.innerHTML += letra, 75 * i);
+    });
+  }
+  const titulo = document.querySelector('h1');
+  typeWriter(titulo);
+</script>

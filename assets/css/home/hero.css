@@ -1,0 +1,32 @@
+.caixa{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center; 
+}
+.caixa .titulo-caixa h1{
+    color: #fbfbfb;
+    text-align: left;
+    margin-left: 60px;
+    font-family: "Saira";
+    font-weight: 700;
+
+}
+ .caixa .titulo-caixa h2 {
+
+    text-align: left;
+    margin-left: 60px;
+    font-family: "Saira";
+    font-weight: 700;
+    color: #fbfbfb;
+  }
+
+  .caixa .titulo-caixa h1::after {
+    content: '|';
+    margin-left: 5px;
+    display: inline-block;
+  }
+  
+ .caixa .titulo-caixa span{
+    border-bottom: 2px solid #f85a40 ;
+ }
