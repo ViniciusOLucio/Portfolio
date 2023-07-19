@@ -3,6 +3,6 @@
 @import url("./base/header.css");
 
 body {
-    margin: 0;
+    margin: 0 auto;
     background: #0E1013;
   }
