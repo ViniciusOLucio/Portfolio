@@ -1,0 +1,30 @@
+.caixa-sobre{
+    padding-bottom: 4g0px;
+padding-top: 10px;
+}
+.sobre-titulo{
+    text-align: center;
+    font-family: "Saira";
+    font-weight: 700;
+    font-size: 36px;
+    color: #fbfbfb;
+}
+.sobre-txt{
+    text-align: left; /* Alinha o texto à esquerda */
+    margin: 0 auto; /* Centraliza o elemento na horizontal */
+    width: 60%; /* Define uma largura para o elemento, pode ajustar conforme necessário */
+    color: #AFAFAF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sobre-txt span{
+    color: #fbfbfb;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

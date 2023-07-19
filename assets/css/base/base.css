@@ -3,11 +3,12 @@
     max-width: 1240px;
     margin: 0 auto;
     padding: 0px 20px;
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
   }
   
   .col-100{
-    border: 1px solid rgb(72, 0, 255); 
+    background-color:#212121;
+    /* border: 1px solid rgb(72, 0, 255);  */
     width: 100%;
   }
 .tela-toda{

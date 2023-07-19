@@ -1,6 +1,7 @@
 @import url("./base/base.css");
 @import url("./home/hero.css");
 @import url("./base/header.css");
+@import url("./home/sobre.css");
 
 body {
     margin: 0 auto;
