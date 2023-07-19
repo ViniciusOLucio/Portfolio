@@ -41,9 +41,6 @@ padding-top: 10px;
     color:#fbfbfb
 }
 .sobre-icons a:hover{
-    display: inline-block;
-
-    border-radius: 2px;
     font-size: 40px;
     color: #ffffff;
     text-align: center;

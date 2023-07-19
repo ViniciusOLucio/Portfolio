@@ -2,7 +2,7 @@
 @import url("./home/hero.css");
 @import url("./base/header.css");
 @import url("./home/sobre.css");
-
+@import url("./home/tecnologias.css");
 body {
     margin: 0 auto;
     background: #0E1013;

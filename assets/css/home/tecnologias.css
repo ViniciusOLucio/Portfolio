@@ -1,0 +1,30 @@
+.titulo-tecnologia h1{
+    text-align: center;
+    font-family: "Saira";
+    font-weight: 700;
+    font-size: 36px;
+    color: #fbfbfb;
+}
+.icones-tecnologia{
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto; /* Centraliza o elemento na horizontal */
+    width: 30%; /* Define uma largura para o elemento, pode ajustar conforme necessário */
+    color: #fbfbfb;
+    font-size: 50px;
+}
+.colunas-tecnologia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 100px;
+    list-style: none;
+
+}
+.colunas-tecnologia li:hover{
+    font-size: 55px;
+    color: #ffffff;
+    text-align: center;
+    transition: all .65s;
+}
+
+
+    
