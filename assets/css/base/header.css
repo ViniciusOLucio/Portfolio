@@ -1,9 +1,6 @@
-.nav{
-display: block;
-grid-template-columns: 1fr 1fr 1f; 
-  
-}
+
 nav ul{
+
   display: flex;
   gap:70px;
 }
@@ -23,14 +20,10 @@ nav a:hover{
 
 
 nav li{
-  float: left;
   list-style-type: none;
-  text-align: center;
   padding: 4px;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+  font-size: 20px;
   font-family: "Saira";
   font-weight: 700;
 }
@@ -42,3 +35,8 @@ nav img {
 }
 
 
+header{
+  display: flex;
+  justify-content: center;
+  border: 1px solid green;
+}

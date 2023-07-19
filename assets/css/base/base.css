@@ -7,6 +7,7 @@
   }
   
   .col-100{
+    border: 1px solid rgb(72, 0, 255); 
     width: 100%;
   }
 .tela-toda{
