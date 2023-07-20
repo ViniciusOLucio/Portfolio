@@ -1,6 +1,4 @@
 .caixa {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   justify-items: center;
   height: 100vh;
   align-items: center; 
@@ -54,8 +52,6 @@ display: flex;
   }
   @media (max-width: 800px) {
     .caixa {
-      display: grid;
-      grid-template-columns: 1fr !important;
       justify-items: center;
       align-items: center; 
     }

@@ -18,14 +18,7 @@
 
 
 @media (max-width: 800px) {
-    .colunas-tecnologia{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
-        list-style: none;
-    
-    }
     .icones-tecnologia{
-        grid-template-columns: 1fr 1fr 1fr;
         margin: 0 auto; /* Centraliza o elemento na horizontal */
         width: 60%; /* Define uma largura para o elemento, pode ajustar conforme necessário */
         color: #fbfbfb;

@@ -7,9 +7,7 @@
 
     max-width: 100%;
 }
-.projetos a li{
-    list-style-type: none;
-}
+
 .card-projeto:hover {
     opacity: 1;
     transform: scale(1.05);
