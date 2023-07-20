@@ -4,6 +4,7 @@
 @import url("./base/header.css");
 @import url("./home/sobre.css");
 @import url("./home/tecnologias.css");
+@import url("./home/projetos.css");
 body {
     margin: 0 auto;
     background: #0E1013;

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
+  li
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +25,9 @@
       <section class="container">
         <nav>
           <ul>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Linguagens</a></li>
-            <li><a href="">Projetos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
+            <li><a href="#projetos">Projetos</a></li>
           </ul>
         </nav>
       </section>
@@ -64,12 +65,14 @@
 
 
   <!-- coluna horizontal 100% -->
-  <section class="col-100">
+  <section id="sobre">
     <!-- sobre -->
+    <div  class="col-100">
     <div class="container">
       <div class="caixa-sobre">
         <div class="sobre-titulo">
           <h1>Sobre</h1>
+          
         </div>
 
         <div class="sobre-txt">
@@ -90,7 +93,7 @@
       </div>
       <!-- fim sobre -->
     </div>
-
+  </div>
     <!-- fechamento da coluna horizontal -->
   </section>
 
@@ -98,7 +101,8 @@
 
 
   <!-- tecnologias  -->
-  <section class="container">
+  <section id="tecnologias">
+    <div class="container">
     <div class="titulo-tecnologia">
       <h1>Tecnologias</h1>
       <div class="icones-tecnologia">
@@ -113,9 +117,30 @@
 
       </div>
     </div>
+  </div>
   </section>
   <!-- fim das tecnologias -->
-  <footer class="col-100">
+
+<!-- projetos -->
+<div class="col-100">
+  <section id="projetos">
+<div class="caixa-projetos container">
+<div class="titulo-projetos">
+  <h1>Projetos</h1>
+</div>
+<div class="projetos">
+<ul>
+<a href="https://github.com/ViniciusOLucio/Farmacia-Esteticas">Site de Estetica<li><img src="" alt=""></li></a>
+<a href="https://github.com/ViniciusOLucio/Login-forsakendogs"><li>Siste de Login<img src="" alt=""></li></a>
+</ul>
+</div>
+</div>
+</section>
+</div>
+
+
+  <!-- footer -->
+  <footer class="col-100" id="cor-prta">
     <div class="footer-icons">
       <a href=""><i class="fa-brands fa-github"></i></a>
       <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
@@ -133,7 +158,6 @@
 </body>
 
 </html>
-
 <script>
   function typeWriter(elemento) {
     const textoArray = elemento.innerHTML.split('');
