@@ -48,3 +48,11 @@ padding-top: 10px;
     margin-left: 3px;
     transition: all .65s;
 }
+@media (max-width: 800px) {
+    .sobre-icons{
+        margin: 0 auto; 
+        width: 25%;
+        padding-top: 5%;
+        transition: ease .65s;
+    }
+   }
