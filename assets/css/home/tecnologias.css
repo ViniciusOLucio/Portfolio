@@ -1,10 +1,4 @@
-.titulo-tecnologia h1{
-    text-align: center;
-    font-family: "Saira";
-    font-weight: 700;
-    font-size: 36px;
-    color: #fbfbfb;
-}
+
 .icones-tecnologia{
     margin: 0 auto; /* Centraliza o elemento na horizontal */
     width: 30%; /* Define uma largura para o elemento, pode ajustar conforme necessário */

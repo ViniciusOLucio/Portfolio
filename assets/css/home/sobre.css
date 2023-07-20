@@ -2,13 +2,7 @@
 
 
 }
-.sobre-titulo h1{
-    text-align: center;
-    font-family: "Saira";
-    font-weight: 700;
-    font-size: 36px;
-    color: #fbfbfb;
-}
+
 .sobre-txt p{
     text-align: left; /* Alinha o texto à esquerda */
     margin: 0 auto; /* Centraliza o elemento na horizontal */
