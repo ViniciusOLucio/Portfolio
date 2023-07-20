@@ -6,11 +6,7 @@
     color: #fbfbfb;
 }
 .projetos{
-
-    justify-content: center;
-    display: grid;
-    grid-template-columns:1fr;
-    
+    justify-items: center
 
 }
 .projetos img{
