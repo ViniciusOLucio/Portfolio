@@ -15,17 +15,29 @@
   height: 100vh;
 }
 
-
-
+/* GRIDS */
+.grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:40px;
+}
+.grid-4{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:40px;
+}
   
   @media (max-width: 800px) {
     .container{
        max-width: 100%;
      }
-   }
-   
-   @media (max-width: 800px) {
-    .col-100{
+     .grid-2{
+      grid-template-columns: 1fr;
+     }
+     .grid-4{
+      grid-template-columns:repeat(2,1fr);
+     }
+     .col-100{
       max-width: 100%;
      }
    }
