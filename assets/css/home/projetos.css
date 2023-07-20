@@ -21,7 +21,7 @@
     opacity: 0.8;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
-    width: 50%;
+    width: 100%;
   }
   .card-projeto li{
 

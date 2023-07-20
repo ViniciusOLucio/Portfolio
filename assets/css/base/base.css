@@ -28,7 +28,9 @@
   grid-template-columns:repeat(3,1fr);
   gap:40px;
 }
-  
+  ul{
+    list-style: none !important;
+  }
   @media (max-width: 800px) {
     .container{
        max-width: 100%;
