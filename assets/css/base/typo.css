@@ -5,3 +5,11 @@ h2{
     color: #fbfbfb;
     font-size: 3.5rem;
 }
+@media (max-width: 800px) {
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.125rem !important;
+}
+     }
