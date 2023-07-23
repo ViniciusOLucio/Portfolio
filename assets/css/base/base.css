@@ -31,8 +31,9 @@
   ul{
     list-style: none !important;
   }
-  @media (max-width: 800px) {
+  @media (max-width: 340px) {
     .container{
+
        max-width: 100%;
      }
      .grid-2{
@@ -42,6 +43,7 @@
       grid-template-columns:repeat(2,1fr);
      }
      .col-100{
+
       max-width: 100%;
      }
    }

@@ -2,6 +2,7 @@
 .caixa {
   justify-items: center;
   height: 100vh;
+  
   align-items: center; 
 }
 .caixa .titulo-caixa h1{
@@ -57,3 +58,14 @@ display: flex;
       align-items: center; 
     }
    }
+   @media (max-width: 400px) {
+    .caixa {
+      justify-items: center;
+      align-items: center; 
+    }
+   }
+
+   
+
+   
+
