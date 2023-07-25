@@ -4,7 +4,8 @@
 footer{
   /* display: none; */
 }
-.titulo-footer h1{
+.titulo-footer h2{
+  text-align: left !important;
   padding:50px;
   color:#fbfbfb;
   font-size: 24px;

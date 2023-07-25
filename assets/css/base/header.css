@@ -39,3 +39,11 @@ header{
   justify-content: center;
   /* border: 1px solid green; */
 }
+@media (max-width: 360px) {
+  nav ul{
+
+    display: flex;
+    gap:10px;
+  }
+ 
+       }
