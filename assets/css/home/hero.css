@@ -2,7 +2,6 @@
 .caixa {
   justify-items: center;
   height: 100vh;
-  
   align-items: center; 
 }
 .caixa .titulo-caixa h1{
@@ -52,11 +51,26 @@ display: flex;
     box-shadow: inset 100px 0 0 0 #54b3d6;
     text-decoration:none; 
   }
-  @media (max-width: 800px) {
+  @media screen and (max-width: 960px){
     .caixa {
+height: inherit;
       justify-items: center;
       align-items: center; 
     }
+    .caixa .titulo-caixa h1{
+      text-align: center;
+      margin-left: 0px;
+  
+  }
+  .caixa .titulo-caixa h2 {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 60px;
+    color: #fbfbfb;
+  }
+  .hero-img{
+
+  }
    }
    @media (max-width: 400px) {
     .caixa {

@@ -31,7 +31,7 @@
   ul{
     list-style: none !important;
   }
-  @media (max-width: 340px) {
+  @media screen and (max-width: 960px){
     .container{
 
        max-width: 100%;
