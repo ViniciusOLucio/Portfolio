@@ -3,6 +3,8 @@ width: 100%;
 
 }
 
+
+
 .sobre-txt p{
     text-align: left; /* Alinha o texto à esquerda */
     margin: 0 auto; /* Centraliza o elemento na horizontal */
@@ -47,8 +49,27 @@ width: 100%;
         transition: ease .65s;
     }
    }
-  @media screen and (max-width: 960px){
-    .caixa-sobre {
+  @media screen and (max-width: 400px){
+    .sobre-txt p{
 
+        font-size: 18px !important;
+
+    }
+    .sobre-txt span{
+
+        font-size: 20px !important;
+
+    }
+    .sobre-icons{
+        margin: 0 auto; 
+        width: 50%;
+        padding-top: 5%;
+        transition: ease .65s;
+    }
+    .sobre-icons a{
+        font-size: 30px;
+        transition: all .65s;
+        margin-left: 25px;
+        color:#fbfbfb
     }
 }

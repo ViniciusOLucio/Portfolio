@@ -17,7 +17,14 @@
 .secao{
   padding: 80px 0;
 }
+
 /* GRIDS */
+.grid-1{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:40px;
+}
+
 .grid-2{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -46,4 +53,7 @@
 
       max-width: 100%;
      }
+     .cima{
+      padding-top: 50px;
+    }
    }

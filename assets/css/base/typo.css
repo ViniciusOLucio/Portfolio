@@ -6,7 +6,6 @@ h2{
     font-size: 3.5rem;
 }
 h1{
-    text-align: center;
     font-family: "Saira", sans-serif;
     font-weight: 700;
     color: #fbfbfb;
@@ -14,11 +13,17 @@ h1{
 }
 
 h3{
-    text-align: center;
+   
     font-family: "Saira", sans-serif;
     font-weight: 700;
     color: #fbfbfb;
     font-size: 3.5rem;
+}
+.titulos-txt h2{
+  text-align: center;
+}
+.titulos-txt h3{
+  text-align: center;
 }
 h1::after  {
     content: '|';
@@ -46,12 +51,28 @@ p{
     font-size: 1.125rem !important;
 }
      }
-     @media (max-width: 360px) {
-        h2{
-            font-size: 2rem;
-        }
+     @media (max-width: 400px) {
+     
         p{
         
             font-size: 1.125rem !important;
         }
+        h1{
+          text-align: center;
+          font-family: "Saira", sans-serif;
+          font-weight: 700;
+          color: #fbfbfb;
+          font-size: 1.7rem!important;
+      }
+      h2{
+        text-align: center;
+      
+        font-size: 1.5rem!important;
+    }
+    h3{
+      text-align: center;
+     
+      font-size: 1.5rem!important;
+  }
+      
              }
