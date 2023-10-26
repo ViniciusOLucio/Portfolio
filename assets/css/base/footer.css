@@ -26,7 +26,7 @@ float: right;
   color:#fbfbfb
 }
 .footer-icons a:hover{
-  font-size: 32px;
-  color: #ffffff;
+
+  color: #6eaaf3;
   transition: all .65s;
 }

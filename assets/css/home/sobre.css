@@ -3,7 +3,12 @@ width: 100%;
 
 }
 
+.sobre-titulo{
 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
 .sobre-txt p{
     text-align: left; /* Alinha o texto à esquerda */
@@ -37,8 +42,8 @@ width: 100%;
     color:#fbfbfb
 }
 .sobre-icons a:hover{
-    font-size: 35px;
-    color: #ffffff;
+    /* font-size: 32px; */
+    color: #6eaaf3;
     line-height: 35px;
     transition: all .65s;
 }
