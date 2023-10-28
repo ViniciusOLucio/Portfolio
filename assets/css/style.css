@@ -10,3 +10,6 @@ body {
     margin: 0 auto;
     background: #0E1013;
   }
+  #sobre, #tecnologias, #projetos{
+    visibility: hidden;
+  }
