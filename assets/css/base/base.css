@@ -46,6 +46,9 @@
      .grid-2{
       grid-template-columns: 1fr;
      }
+     .grid-3{
+      grid-template-columns:repeat(2,1fr);
+    }
      .grid-4{
       grid-template-columns:repeat(2,1fr);
      }
@@ -55,5 +58,14 @@
      }
      .cima{
       padding-top: 50px;
+    }
+    h1,h2,h3{
+      font-size: 28px !important;
+    }
+    p{
+      font-size: 18px !important;
+    }
+    p span{
+      font-size: 18px !important;
     }
    }

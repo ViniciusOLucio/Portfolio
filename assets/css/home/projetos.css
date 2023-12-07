@@ -1,7 +1,6 @@
 
-.projetos{
-    justify-items: center
-
+.projetos {
+  padding: 10px;
 }
 .projetos img{
   border-radius: 10px;

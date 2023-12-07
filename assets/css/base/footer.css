@@ -5,7 +5,9 @@ footer{
   /* display: none; */
 }
 .titulo-footer h2{
-  text-align: left !important;
+display: flex;
+text-align: left;
+flex-direction: column;
   padding:50px;
   color:#fbfbfb;
   font-size: 24px;
@@ -13,10 +15,11 @@ footer{
 font-weight: 700;
 }
 .footer-icons{
+  display: flex;
   padding:50px;
+  justify-content: flex-end;
+  align-items: center;
 
-float: right;
-  width: 10%;
   transition: ease .65s;
 }
 .footer-icons a{
@@ -29,4 +32,14 @@ float: right;
 
   color: #6eaaf3;
   transition: all .65s;
+}
+
+@media (max-width: 768px) {
+  .footer-icons{
+    justify-content: center;
+  
+  }
+  .titulo-footer h2{
+    text-align: center;
+    }
 }

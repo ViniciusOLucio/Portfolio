@@ -30,8 +30,9 @@ width: 100%;
     line-height: normal;
 }
 .sobre-icons{
-    margin: 0 auto; 
-    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 5%;
     transition: ease .65s;
 }
